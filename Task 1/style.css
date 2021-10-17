@@ -1,0 +1,107 @@
+.links {
+  color: blue;
+  text-align: right;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 10px;
+  padding: 6px;
+}
+
+.links > a:hover {
+  color: cadetblue;
+}
+
+.main {
+  text-align: center;
+  width: 100%;
+  display: block;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  padding: 7px;
+  background: rgb(241, 241, 241);
+  font-size: 12px;
+  font-family: arial,sans-serif;
+  text-align: center;
+  color: rgb(22, 22, 22);
+  border: none;
+  display: inline;
+  margin: 0 auto;
+  border-radius: 3px;
+  margin-top: 32px;
+  }
+
+.button:hover {
+    border: rgb(179, 177, 177) solid 1px;
+ }
+
+ .search_field {
+  display: flex;
+  border: 1px solid rgb(165, 163, 163);
+  border-radius: 20px;
+  height: 30px;
+  margin: 0 auto;
+  width: 400px;
+  max-width: 800px;
+ }
+
+.search_field:hover {
+  box-shadow: 1px 1px lightslategray;
+}
+
+.logo1 {
+  margin: 10pt;
+  position: fixed;
+  left: 0;
+  top: 0;  
+}
+.main1 {
+  text-align: left;
+  font-size: 22px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search_field1 {
+  display: flex;
+  border: 1px solid rgb(165, 163, 163);
+  border-radius: 0.1px;
+  height: 30px;
+  margin: 15px auto;
+  width: 400px;
+  max-width: 800px;
+  position: relative;
+  left: -410pt;
+ }
+
+.search_field1:hover {
+  border-color: 2px 2px rgb(15, 116, 218);
+}
+
+.button1 {
+  padding: 7px;
+  background: rgb(21, 67, 219);
+  font-size: 12px;
+  font-family: arial,sans-serif;
+  text-align: center;
+  color: rgb(250, 249, 249);
+  border: none;
+  display: inline;
+  margin: 0 auto;
+  border-radius: 3px;
+  margin-top: 32px;
+  position: relative;
+  right: -225pt;
+  }
+
+.button1:hover {
+    border: rgb(87, 23, 207) solid 1px;
+}
+
